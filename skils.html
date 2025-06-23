@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills Section</title>
+  <style>
+    /* Reset basic margin and padding */
+    body, h2, h3, ul {
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f7fa;
+      color: #333;
+      padding: 20px;
+    }
+
+    /* Main skills section */
+    #skills {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #4CAF50;
+      margin-bottom: 20px;
+    }
+
+    .skill-category {
+      margin-bottom: 30px;
+    }
+
+    .skill-category h3 {
+      font-size: 1.8rem;
+      color: #555;
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    .skill-category ul {
+      list-style-type: none;
+    }
+
+    .skill-category li {
+      font-size: 1.1rem;
+      margin: 8px 0;
+      padding-left: 25px;
+      position: relative;
+    }
+
+    .skill-category li:before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #4CAF50;
+      font-size: 1.4rem;
+    }
+
+    /* Adding Icons next to skills (optional) */
+    .icon {
+      margin-right: 10px;
+      color: #4CAF50;
+    }
+
+    /* Styling for mobile responsiveness */
+    @media (max-width: 600px) {
+      h2 {
+        font-size: 2rem;
+      }
+
+      .skill-category h3 {
+        font-size: 1.6rem;
+      }
+
+      .skill-category li {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    
+    <!-- Technical Skills Section -->
+    <div class="skill-category">
+      <h3>Technical Skills</h3>
+      <ul>
+        <li><span class="icon"></span> java </li>
+        <li><span class="icon"></span> JavaScript</li>
+        <li><span class="icon"></span> HTML/CSS</li>
+        <li><span class="icon"></span> Hibernate </li>
+        <li><span class="icon"></span> Oracle Database </li>
+        <li><span class="icon"></span> Sdlc(Software development Lifecycle ) </li>
+      </ul>
+    </div>
+    
+   
+    
+    <!-- Soft Skills Section -->
+    <div class="skill-category">
+      <h3>Soft Skills</h3>
+      <ul>
+        <li><span class="icon">🗣️</span> Communication</li>
+        <li><span class="icon">🧩</span> Problem-Solving</li>
+      </ul>
+    </div>
+  </section>
+
+</body>
+</html>
